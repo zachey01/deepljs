@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/zachey01/deepljs#readme",
   "dependencies": {
-    "free-deepl": "^1.0.0",
     "puppeteer": "^22.4.1"
   },
   "bin": {
