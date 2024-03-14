@@ -24,5 +24,8 @@
   },
   "dependencies": {
     "puppeteer": "^22.4.1"
+  },
+  "bin": {
+    "deepljs": "./bin/cli.js"
   }
 }
