@@ -1,11 +1,11 @@
-# Unofficial api for DeepL — DeepL.JS
+# Unofficial api for DeepL — free-deepl
 
 This is a simple Node.js module that allows you to interact with the DeepL API for translation services.
 
 Installation
-You can install the DeepL.JS package using npm:
+You can install the free-deepl package using npm:
 
-`npm install deepljs`
+`npm install free-deepl`
 
 ```
 const deepljs = require("free-deepl");
@@ -22,6 +22,6 @@ console.log(await deepljs(sourceLang, targetLang, text));
 ```
 
 Command Line Interface (CLI)
-You can also use DeepL.JS via the command line interface:
+You can also use free-deepl via the command line interface:
 
 `deepljs <sourceLang> <targetLang> <text>`
