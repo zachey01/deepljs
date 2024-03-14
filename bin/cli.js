@@ -1,13 +1,15 @@
 #!/usr/bin/env node
+const deepljs = require("../index");
 
-const args = process.argv.slice(2);
+const args = process.argv;
+const sourceLang = args[2];
+const targetLang = args[3];
+const text = args.slice(4).join(" ");
 
-const portIndex = args.indexOf("--port");
-if (portIndex === -1 || !args[portIndex + 1]) {
-  console.error("Usage: deepljs --port <port_number>");
-  process.exit(1);
+if (!sourceLang || !targetLang || !text) {
+  console.error("Usage: deepljs <sourceLang> <targetLang> <text>");
+} else {
+  (async () => {
+    console.log(await deepljs(sourceLang, targetLang, text));
+  })();
 }
-
-const port = args[portIndex + 1];
-
-console.log(`${port}`);
