@@ -8,7 +8,7 @@ You can install the DeepL.JS package using npm:
 `npm install deepljs`
 
 ```
-const deepljs = require("deepljs");
+const deepljs = require("deepl.js");
 
 (async () => {
 

@@ -1,5 +1,5 @@
 {
-  "name": "deepljs",
+  "name": "deepl.js",
   "version": "1.0.0",
   "description": "Unofficial DeepL API (without apikey)",
   "main": "index.js",
