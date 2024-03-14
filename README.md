@@ -5,23 +5,25 @@ This is a simple Node.js module that allows you to interact with the DeepL API f
 Installation
 You can install the free-deepl package using npm:
 
-`npm install free-deepl`
-
+```shell
+npm install free-deepl
 ```
+
+```js
 const deepljs = require("free-deepl");
 
 (async () => {
+  let sourceLang = "en";
+  let targetLang = "ru";
+  let text = "Hello";
 
-let sourceLang = "en";
-let targetLang = "ru";
-let text = "Hello";
-
-console.log(await deepljs(sourceLang, targetLang, text));
-
+  console.log(await deepljs(sourceLang, targetLang, text));
 })();
 ```
 
 Command Line Interface (CLI)
 You can also use free-deepl via the command line interface:
 
-`deepljs <sourceLang> <targetLang> <text>`
+```shell
+deepljs <sourceLang> <targetLang> <text>
+```
