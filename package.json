@@ -1,5 +1,5 @@
 {
-  "name": "deepl.js",
+  "name": "free-deepl",
   "version": "1.0.0",
   "description": "Unofficial DeepL API (without apikey)",
   "main": "index.js",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/zachey01/deepljs#readme",
   "dependencies": {
+    "free-deepl": "^1.0.0",
     "puppeteer": "^22.4.1"
   },
   "bin": {
