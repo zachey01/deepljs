@@ -1,10 +1,10 @@
 {
   "name": "deepljs",
   "version": "1.0.0",
-  "description": "Unofficial Deepl API (without apikey)",
+  "description": "Unofficial DeepL API (without apikey)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx nodemon index.js"
   },
   "repository": {
     "type": "git",
