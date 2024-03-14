@@ -1,0 +1,28 @@
+{
+  "name": "deepljs",
+  "version": "1.0.0",
+  "description": "Unofficial Deepl API (without apikey)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachey01/deepljs.git"
+  },
+  "keywords": [
+    "deepl-api"
+  ],
+  "author": "Zachey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zachey01/deepljs/issues"
+  },
+  "homepage": "https://github.com/zachey01/deepljs#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "puppeteer": "^22.4.1"
+  }
+}
