@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zachey01/deepljs#readme",
   "dependencies": {
-    "puppeteer": "^23.0.2"
+    "puppeteer": "^24.1.1"
   },
   "bin": {
     "deepljs": "./bin/cli.js"
